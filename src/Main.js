@@ -3,6 +3,7 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Koti from "./Koti";
 import Tarina from "./Tarinat";
 import Yhteys from "./Yhteys";
+import Json from "./Json";
  
 class Main extends Component {
   render() {
@@ -14,11 +15,13 @@ class Main extends Component {
             <li><NavLink exact to="/">Koti</NavLink></li>
             <li><NavLink to="/tarina">Tarinaa</NavLink></li>
             <li><NavLink to="/yhteys">Yhteys</NavLink></li>
+            <li><NavLink to="/json">JSON</NavLink></li>
           </ul>
           <div className="content">
-              <Route path="/" component={Koti}/>
+              <Route exact path="/" component={Koti}/>
               <Route path="/tarina" component={Tarina}/>
-              <Route path="/yhteys" component={Yhteys}/>             
+              <Route path="/yhteys" component={Yhteys}/>    
+              <Route path="/json" component={Json}/>
           </div>
         </div>
         </HashRouter>
