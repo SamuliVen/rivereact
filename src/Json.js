@@ -16,7 +16,7 @@ class Json extends Component {
                                     <h1>{enemy.name}</h1>
                                     <img src={enemy.icon} alt={enemy.name}></img>
                                     <p className="price">{enemy.description}</p>
-                                    <a href={url + enemy.name.replace(/\s/g,'%20')} target="_blank" rel="noreferrer">Link to {enemy.name}</a>
+                                    <a href={url + enemy.name.replace(/\s/g, '_')} target="_blank" rel="noreferrer">Link to {enemy.name}</a>
                                 </div>
                             </div>
                         )
