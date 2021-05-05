@@ -1,16 +1,75 @@
 {
-    "Enemies": [
+    "Donuts": [
         {
-            "id": 1,
-            "name": "Venom",
-            "description": "The character is a sentient alien symbiote with an amorphous, liquid-like form, who survives by bonding with a host, usually human. This dual-life form receives enhanced powers and usually refers to itself as Venom.",
-            "icon": "https://upload.wikimedia.org/wikipedia/en/f/ff/Web_of_Venom.png"
+            "id": "0001",
+            "type": "donut",
+            "name": "Cake",
+            "ppu": 0.55,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxiKA4IEssr2Mgy59dcqjl5csNCrFRKxd64Q&usqp=CAU",
+            "batters":
+                {
+                    "batter":
+                        [
+                            { "id": "1001", "type": "Regular" },
+                            { "id": "1002", "type": "Chocolate" },
+                            { "id": "1003", "type": "Blueberry" },
+                            { "id": "1004", "type": "Devil's Food" }
+                        ]
+                },
+            "topping":
+                [
+                    { "id": "5001", "type": "None" },
+                    { "id": "5002", "type": "Glazed" },
+                    { "id": "5005", "type": "Sugar" },
+                    { "id": "5007", "type": "Powdered Sugar" },
+                    { "id": "5006", "type": "Chocolate with Sprinkles" },
+                    { "id": "5003", "type": "Chocolate" },
+                    { "id": "5004", "type": "Maple" }
+                ]
         },
         {
-            "id": 2,
-            "name": "Doctor Octopus",
-            "description": "He is a highly intelligent, myopic, and somewhat stocky mad scientist who sports four strong and durable appendages resembling an octopus's tentacles, which extend from the back of his body and can be used for various purposes. After his mechanical harness became permanently fused to his body during a lab accident, Octavius turned to a life of crime.",
-            "icon": "https://upload.wikimedia.org/wikipedia/en/b/bc/Dr._Octopus_Marvel.jpg"
+            "id": "0002",
+            "type": "donut",
+            "name": "Raised",
+            "ppu": 0.55,
+            "img": "https://cdn.cdkitchen.com/recipes/images/2018/06/32936-8138-mx.jpg",
+            "batters":
+                {
+                    "batter":
+                        [
+                            { "id": "1001", "type": "Regular" }
+                        ]
+                },
+            "topping":
+                [
+                    { "id": "5001", "type": "None" },
+                    { "id": "5002", "type": "Glazed" },
+                    { "id": "5005", "type": "Sugar" },
+                    { "id": "5003", "type": "Chocolate" },
+                    { "id": "5004", "type": "Maple" }
+                ]
+        },
+        {
+            "id": "0003",
+            "type": "donut",
+            "name": "Old Fashioned",
+            "ppu": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/buttermilk-donuts-7.jpg",
+            "batters":
+                {
+                    "batter":
+                        [
+                            { "id": "1001", "type": "Regular" },
+                            { "id": "1002", "type": "Chocolate" }
+                        ]
+                },
+            "topping":
+                [
+                    { "id": "5001", "type": "None" },
+                    { "id": "5002", "type": "Glazed" },
+                    { "id": "5003", "type": "Chocolate" },
+                    { "id": "5004", "type": "Maple" }
+                ]
         }
     ]
 }

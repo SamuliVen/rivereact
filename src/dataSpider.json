@@ -1,0 +1,16 @@
+{
+    "Enemies": [
+        {
+            "id": 1,
+            "name": "Venom",
+            "description": "The character is a sentient alien symbiote with an amorphous, liquid-like form, who survives by bonding with a host, usually human. This dual-life form receives enhanced powers and usually refers to itself as Venom.",
+            "icon": "https://upload.wikimedia.org/wikipedia/en/f/ff/Web_of_Venom.png"
+        },
+        {
+            "id": 2,
+            "name": "Doctor Octopus",
+            "description": "He is a highly intelligent, myopic, and somewhat stocky mad scientist who sports four strong and durable appendages resembling an octopus's tentacles, which extend from the back of his body and can be used for various purposes. After his mechanical harness became permanently fused to his body during a lab accident, Octavius turned to a life of crime.",
+            "icon": "https://upload.wikimedia.org/wikipedia/en/b/bc/Dr._Octopus_Marvel.jpg"
+        }
+    ]
+}
